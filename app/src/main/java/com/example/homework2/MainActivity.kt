@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             val intent=Intent(this, NotesWriting::class.java)
             startActivity(intent)
         }
+        xnkjsbkjs
 
 
         // List of Items
