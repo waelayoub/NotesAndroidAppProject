@@ -50,9 +50,6 @@ class NotesWriting : AppCompatActivity() {
 
                 putInt("IndexOfItems",secNumber+1).apply()
             }
-
-            println(sharedPreferences.getInt("IndexOfItems", 0))
-
             binding.etTitle.text?.clear()
             binding.etNote.text?.clear()
             val myIntent=Intent(this, MainActivity::class.java)

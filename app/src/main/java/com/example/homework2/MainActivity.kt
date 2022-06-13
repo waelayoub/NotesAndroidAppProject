@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
         val editor=sharedPreferences.edit()
         val secNumber=sharedPreferences.getInt("IndexOfItems", 0)
 
+
+        // To get the info from memory and use it as objects
         if(secNumber!=0) {
             var i:Int=0
             while(i<secNumber){
